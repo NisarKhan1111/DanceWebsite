@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 14px;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 12px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.container{
+    min-height: 72vh;
+    margin-top: 43px;
+}
+
+.container h1{
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 34px;
+
+}

@@ -1,0 +1,59 @@
+doctype html
+html
+    head 
+        title Harry Dance Academy 
+        style
+            include ../static/style.css
+    body
+        nav#navbar 
+            ul 
+                div#logo 
+                    img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ballerina_logo.png/501px-Ballerina_logo.png", alt="error")
+                    | HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class Info ]
+                li #[a(href="/") Contact Us ]
+                
+        section#introSection 
+            div Welcome to Harry's Dance Academy 
+            div.small  Eat Sleep Dance Repeat 
+
+        section#missionSection 
+            h2 Our Mission 
+            div.card 
+                h3 Dance Perfection 
+                div.card-box
+                    div.card-img 
+                        img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqgfjyDy3WHb82GnGk2sZK9igwI-pf9ZtLafiPCfspjDzoLTQfDuNKmSnrNUOappC4IrE&usqp=CAU", alt="error")
+                    div.card-content 
+                        p This is the  best Dance Academy of the univerce  
+            div.card 
+                h3 Dance the way you like 
+                div.card-box
+                    div.card-img 
+                        img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1wr36JGsbvmDSL-ZMrMgRMhcyKcZjVx1tOZtkKDLGtVmF4rz1BfaoL_hDf71s_Tpw1Po&usqp=CAU", alt="error")
+                    div.card-content 
+                        p This is the best Dance Academy of the univerce
+            div.card 
+                h3 Expert teaching
+                div.card-box
+                    div.card-img 
+                        img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1YsmIWe7wUxyId5JBQCyBTZ-GBaoCD3oQms5VekK-wOl-PwJ3hFNn3SAgmIPuCgM-HN8&usqp=CAU", alt="error")
+                    div.card-content 
+                        p This is the best Dance Academy of the univerce
+          
+        section#sponsorsSection 
+            h2  Our Sponsors 
+            div#sponsors 
+                img(src="https://cdn.telanganatoday.com/wp-content/uploads/2021/05/Microsoft-to-retire-iconic-Internet-Explorer-on-June-15-2022.jpg", alt="" Class="spImage")
+                img(src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png")
+                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/2048px-HP_logo_2012.svg.png", alt="" Class="spImage")
+                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/2560px-Skype_logo.svg.png", alt="" Class="spImage")
+        footer#footer
+            | Copyright 2023 Harrydanceacademy.com | All rights reserved
+        script 
+            include ../static/index.js 
+
+    
